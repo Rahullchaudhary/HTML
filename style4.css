@@ -1,0 +1,13 @@
+/*inline style attrbute > id > class > element  specificity*/
+div#container ul.my-song li{
+    color: brown;
+    background-color: green;
+}
+div#container ul.my-song li.favorite{
+    color: green;
+    background-color:brown;
+}
+/* how to calculate specificity */
+/* 0,1,1,3 --->113*/
+/* 0,0,1,0--->10  old specificity */
+/* 0,1,2,3--->123 new specificity */

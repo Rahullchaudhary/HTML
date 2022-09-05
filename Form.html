@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="./pages/thannku.html" method="get" >
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username"  placeholder="username" required><br><br>
+        <label for="Password">Password :</label>
+        <input type="text" id="Password" name="password" placeholder="password" required><br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="email" required><br>
+        <p>Select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other"><br>
+        <label for="age group">Select your age </label>
+        <select name="select age" id="age group">
+            <!-- <option value="">select age</option> -->
+            <option value="5-10">5-10</option>
+            <option value="10-15">10-15</option>
+            <option value="15-20">15-20</option>
+            <option value="20-25">20-25</option>
+            <option value="25-30">25-30</option>
+        </select><br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

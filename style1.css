@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color:rgb(201, 164, 192) ;
+} 
+.heading{
+    color: rgb(214, 14, 184);
+}
+header{
+    background-color:rgb(188, 154, 189) ;
+}
+span{
+    background-color: red;
+}

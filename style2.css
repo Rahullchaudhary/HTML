@@ -1,0 +1,31 @@
+
+/* *{
+    color: blue;
+} */
+header{
+    background-color: #f0ebeb;
+}
+section.my-article{
+    background-color: #f2e9e9;
+}
+header p{
+    color: red;
+}
+li a{
+    color: rgb(62, 209, 25);
+}
+/* section.my-article h2{
+    color: green;
+} */
+section.my-article > h2{
+    color: green;
+}
+h2+p{
+    color: orangered;
+}
+ul+p{
+    color: green;
+}
+section.my-article h2+p{
+    color: peru;
+}

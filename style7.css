@@ -1,0 +1,14 @@
+/*a{
+    border: 10px solid red;
+    margin: 40px;
+    padding: 40px;
+    height: 300px;
+}*/
+a{
+    display: inline-block;
+    border: 2px solid red;
+    margin: 40px;
+    padding: 40px;
+    height: 100px;
+    font-weight: 500px;
+}

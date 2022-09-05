@@ -1,0 +1,29 @@
+ /* input[type="text"]{
+     color: green;
+ } */
+ /* a[href="https://google.co.in"]{
+     color: red;
+ } */
+ /* a[href *="google"]{
+     color:red;
+ } */
+ /* a[href ^="https"]{
+     color: green;
+ } */
+ /* a[href $=".com"]{
+     color: brown;
+ } */
+ h1{
+     color: green;
+ }
+ /*inline style attrbute > id > class > element  specificity*/
+ h1.heading{
+     color: burlywood;
+ }
+ .h1{
+     color: red;
+ }
+ 
+ /* #hi{
+     color: blue !important;
+ } */

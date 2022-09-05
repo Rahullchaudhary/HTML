@@ -1,0 +1,50 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+/* h1{
+    color: rgb(99, 46, 15);
+    background-color: palevioletred;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}*//* 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main_heading{
+    background-color: goldenrod;
+}
+.main_section{
+    background-color: pink;
+}
+p{
+  color: white;  
+}*/
+/* id vs class */
+/* .text-red{
+    color: red;
+
+}
+.text-green{
+    color: green;
+}
+.bg-dark{
+    background-color:rgb(173, 199, 168);
+} */
+/* Exercise 4 */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap'); */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.ex-bg{
+    background-color:rgb(201, 164, 192) ;
+}
+.heading{
+    color: rgb(000, 000, 000);
+}
+.hi{
+    background-color:rgb(188, 154, 189) ;
+}
+span{
+    background-color: red;
+}
